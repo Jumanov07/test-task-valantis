@@ -3,3 +3,48 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.container {
+  padding: 30px;
+}
+
+.filter-box {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+.filter-box > div {
+  display: flex;
+  gap: 20px;
+}
+
+ul {
+  margin-top: 50px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+ul > li {
+  width: 100%;
+  border: 1px solid black;
+  padding: 50px;
+}
+
+.pagination {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  position: fixed;
+  bottom: 10px;
+  width: 100%;
+}
+
+.pagination p {
+  background-color: white;
+}
