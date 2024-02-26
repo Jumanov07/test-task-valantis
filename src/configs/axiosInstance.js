@@ -13,7 +13,6 @@ const axiosInstance = axios.create({
   headers: {
     "Content-Type": "application/json",
   },
-  mode: "no-cors",
 });
 
 axiosInstance.interceptors.request.use((config) => {
